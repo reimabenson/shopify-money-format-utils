@@ -68,7 +68,7 @@ parseMoney('1.134,65', 'amount_with_comma_separator');
 
 ## 💡 Shopify Theme Integration
 
-To make JavaScript aware of your Shopify store’s money format and currency:
+To make JavaScript aware of your Shopify store’s money format and currency, copy this script in your `theme.liquid` file:
 
 ```liquid
 <script>
