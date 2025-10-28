@@ -50,8 +50,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reimabenson/shopify-money-format-utils.git"
+    "url": "git+https://github.com/reimabenson/shopify-money-format-utils.git"
   },
+  "bugs": {
+    "url": "https://github.com/reimabenson/shopify-money-format-utils/issues"
+  },
+  "homepage": "https://github.com/reimabenson/shopify-money-format-utils#readme",
   "author": "Reima",
   "license": "MIT",
   "engines": {
