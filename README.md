@@ -52,7 +52,7 @@ parseMoney('1.134,65', 'amount_with_comma_separator');
 ## 📊 Format Reference (Examples)
 
 | **Format Parameter** | **Example Formatted Output** | **Parsed Output (number)** | **Locale / Style** |
-|----------------------:|------------------------------|-----------------------------|--------------------|
+|----------------------|------------------------------|-----------------------------|--------------------|
 | `amount` | `1,134.65` | 1134.65 | en-US (default, 2 decimals) |
 | `amount_no_decimals` | `1,135` | 1135 | en-US (rounded, no decimals) |
 | `amount_with_comma_separator` | `1.134,65` | 1134.65 | de-DE (comma as decimal) |
@@ -68,7 +68,7 @@ parseMoney('1.134,65', 'amount_with_comma_separator');
 
 ## 💡 Shopify Theme Integration
 
-To make JavaScript aware of your Shopify store’s money format and currency:
+To make JavaScript aware of your Shopify store’s money format and currency, copy this script in your `theme.liquid` file:
 
 ```liquid
 <script>
