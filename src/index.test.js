@@ -74,4 +74,9 @@ describe('parseMoney()', () => {
   it('amount_with_period_and_space_separator', () => {
     expect(parseMoney('1 134.65', 'amount_with_period_and_space_separator')).toBeCloseTo(NUM, 2);
   });
+
+  it('symbol at start/end', () => {
+    expect(parseMoney('1,134.65€', 'amount')).toBeCloseTo(NUM, 2);
+    expect(parseMoney('$1,134.65', 'amount')).toBeCloseTo(NUM, 2);
+  });
 });

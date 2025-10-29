@@ -100,6 +100,11 @@ describe('parseMoney (mirrors formats)', () => {
     expect(Lib.parseMoney('1\u2019134.65', 'amount_with_apostrophe_separator')).toBeCloseTo(NUM, 2);
     expect(Lib.parseMoney('1\u202f134,65', 'amount_with_space_separator')).toBeCloseTo(NUM, 2);
   });
+
+  it('symbol at start/end', () => {
+    expect(Lib.parseMoney('1,134.65€', 'amount')).toBeCloseTo(NUM, 2);
+    expect(Lib.parseMoney('$1,134.65', 'amount')).toBeCloseTo(NUM, 2);
+  });
 });
 
 describe('round-trip expectations', () => {
