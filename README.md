@@ -45,6 +45,10 @@ formatMoney(1134.65, 'amount_with_space_separator', { symbol: '€', position: '
 // Parse formatted string back to number
 parseMoney('1.134,65', 'amount_with_comma_separator'); 
 // → 1134.65
+
+// Parse formatted string back to number
+parseMoney('1.134,65€', 'amount_with_comma_separator'); 
+// → 1134.65
 ```
 
 ---
