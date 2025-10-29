@@ -1,6 +1,6 @@
 {
   "name": "shopify-money-format-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight Shopify money formatting and parsing utilities for multi-currency theme development.",
   "type": "module",
   "main": "dist/shopify-money-format-utils.cjs.js",
