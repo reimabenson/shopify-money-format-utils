@@ -46,7 +46,7 @@ formatMoney(1134.65, 'amount_with_space_separator', { symbol: '€', position: '
 parseMoney('1.134,65', 'amount_with_comma_separator'); 
 // → 1134.65
 
-// Remove Currency Symbol
+// Remove currency symbol
 parseMoney('€1.134,65', 'amount_with_comma_separator'); 
 // → 1134.65
 ```
