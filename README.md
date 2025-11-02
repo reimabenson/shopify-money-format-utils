@@ -6,8 +6,6 @@ Supports **multi-currency**, **locale-aware separators**, and **custom currency 
 
 [![npm version](https://img.shields.io/npm/v/shopify-money-format-utils.svg)](https://www.npmjs.com/package/shopify-money-format-utils)
 [![npm downloads](https://img.shields.io/npm/dt/shopify-money-format-utils.svg)](https://www.npmjs.com/package/shopify-money-format-utils)
-[![npm dm](https://img.shields.io/npm/dm/shopify-money-format-utils.svg)](https://www.npmjs.com/package/shopify-money-format-utils)
-
 
 ---
 
